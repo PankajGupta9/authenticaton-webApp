@@ -23,7 +23,6 @@ mongoose
      });
 
 
-     //server Initialization
 
 
      app.listen(3000, () => {
