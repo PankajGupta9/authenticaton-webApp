@@ -36,12 +36,12 @@ mongoose
 
 // middleware to handle error globally
 
-app.use((err,req,res,next)=>{
-   const statusCode = err.statusCode || 500;
-   const message = err.message || 'Internal server error';
-   return res.status(statusCode).json({
-      success:false,
-      statusCode,
-      message,
-   })
-})
+// app.use((err,req,res,next)=>{
+//    const statusCode = err.statusCode || 500;
+//    const message = err.message || 'Internal server error';
+//    return res.status(statusCode).json({
+//       success:false,
+//       statusCode,
+//       message,
+//    })
+// })
